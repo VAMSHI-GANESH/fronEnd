@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    width: 120px;
+    background-color: lightskyblue;
+    position: fixed;
+}
+.virat1{
+    width: 120px;
+}
+.navbar ul{
+    background-color:lightskyblue;
+    list-style-type: none;
+    width: 120px;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+.virat2{
+    width: 400px;
+    padding-top: 25px;
+    display: flex;
+    float: right;
+}
+.navbar li a{
+    display: block;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+}
+.navbar li a:active{
+    background-color: lightskyblue;
+}
+.navbar li a:hover{
+    background-color: gray;
+}
+.header,.intro, .body{
+    margin-left: 120px;
+    padding-left: 0px;
+}
+
+.header .main{
+    align-items: center;
+    background-color: orange;
+
+}
+.header .main .heading{
+    font-size: 3rem;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    line-height: 1.2;
+    text-align: center;
+    color: white;
+}
+.p{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.intro .para{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.body .container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.box{
+    flex: 1;
+    flex-direction: row;
+    background-color: limegreen;
+    margin: 20px 10px;
+    padding: 10px;
+}
+.head3{
+    text-align: center;
+    padding: 10px;
+}
+.b{
+    padding-left: 10px;
+}
+.pa{
+    padding: 10px;
+}
+.head2{
+    text-align: left;
+}
+.hr{
+    width: 200px;
+}
